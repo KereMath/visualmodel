@@ -1,0 +1,66 @@
+{
+  "num_classes": 5,
+  "active_classes": [
+    "collective_anomaly",
+    "mean_shift",
+    "point_anomaly",
+    "trend_shift",
+    "variance_shift"
+  ],
+  "class_to_idx": {
+    "collective_anomaly": 0,
+    "mean_shift": 1,
+    "point_anomaly": 2,
+    "trend_shift": 3,
+    "variance_shift": 4
+  },
+  "best_val_acc": 1.0,
+  "best_val_f1": 1.0,
+  "total_images": 420,
+  "train_images": 336,
+  "val_images": 84,
+  "class_distribution": {
+    "collective_anomaly": 84,
+    "mean_shift": 84,
+    "point_anomaly": 84,
+    "trend_shift": 84,
+    "variance_shift": 84
+  },
+  "confusion_matrix": [
+    [
+      18,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      21,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      21
+    ]
+  ]
+}
