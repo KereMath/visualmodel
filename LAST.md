@@ -272,7 +272,7 @@ To validate the model's 100% validation accuracy, we tested on **ALL images** fr
 - **Dataset Path**: `C:\Users\user\Desktop\STATIONARY\Combinations`
 - **Label Mapping**: Using `VISUAL_MAPPING` from `visual_mapping.py`
 - **Ground Truth**: 21 combinations across 5 base trend types
-- **Total Images**: 588 PNG files from 29 plots folders
+- **Total Images**: 608 PNG files from 29 plots folders (including nested structures)
 
 ### Dataset Structure
 ```
@@ -309,25 +309,25 @@ Combinations/
 
 ## Final Test Results on Complete Dataset
 
-### Overall Performance (588 Images)
+### Overall Performance (608 Images)
 
 | Metric | Value |
 |--------|-------|
-| **Total Images Tested** | 588 |
+| **Total Images Tested** | 608 |
 | **Overall Accuracy** | **100.00%** ✅ |
-| **Correct Predictions** | 588/588 |
+| **Correct Predictions** | 608/608 |
 | **Incorrect Predictions** | 0 |
-| **Average Confidence** | 99.70% |
+| **Average Confidence** | 99.71% |
 
 ### Per-Class Performance (All Perfect)
 
 | Anomaly Class | Correct/Total | Accuracy | Images |
 |---------------|---------------|----------|--------|
-| **collective_anomaly** | 108/108 | **100.00%** | 18.37% |
-| **mean_shift** | 168/168 | **100.00%** | 28.57% |
-| **point_anomaly** | 108/108 | **100.00%** | 18.37% |
-| **trend_shift** | 120/120 | **100.00%** | 20.41% |
-| **variance_shift** | 84/84 | **100.00%** | 14.29% |
+| **collective_anomaly** | 108/108 | **100.00%** | 17.76% |
+| **mean_shift** | 168/168 | **100.00%** | 27.63% |
+| **point_anomaly** | 128/128 | **100.00%** | 21.05% |
+| **trend_shift** | 120/120 | **100.00%** | 19.74% |
+| **variance_shift** | 84/84 | **100.00%** | 13.82% |
 
 ### Confusion Matrix (Perfect Diagonal)
 
@@ -335,12 +335,12 @@ Combinations/
                  collective  mean_shift  point_ano  trend_shi  variance_
 collective_anomaly     108           0          0          0          0
 mean_shift               0         168          0          0          0
-point_anomaly            0           0        108          0          0
+point_anomaly            0           0        128          0          0
 trend_shift              0           0          0        120          0
 variance_shift           0           0          0          0         84
 ```
 
-**Zero misclassifications across all 588 images!**
+**Zero misclassifications across all 608 images!**
 
 ---
 
@@ -349,8 +349,8 @@ variance_shift           0           0          0          0         84
 ### What This Test Proves
 
 ✅ **100% Accuracy Confirmed on Full Dataset**
-- The model's 100% validation accuracy (on 84 images) holds perfectly across **ALL 588 images** from the Combinations dataset
-- This represents 7× more images than the original validation set
+- The model's 100% validation accuracy (on 84 images) holds perfectly across **ALL 608 images** from the Combinations dataset
+- This represents 7.2× more images than the original validation set
 
 ✅ **Perfect Generalization Within Domain**
 - Zero errors across all 21 combinations
@@ -358,7 +358,7 @@ variance_shift           0           0          0          0         84
 - Model handles both direct and nested folder structures
 
 ✅ **High Confidence Predictions**
-- Average confidence: 99.70%
+- Average confidence: 99.71%
 - Model is extremely certain about its predictions
 - No low-confidence or borderline classifications
 
@@ -366,11 +366,12 @@ variance_shift           0           0          0          0         84
 - All 5 classes achieved perfect 100% accuracy
 - Class distribution varies (84-168 images per class)
 - Model handles imbalanced test sets well
+- Correctly classified 20 additional nested images from "Quadratic + Point Anomaly"
 
 ### What This Test Does NOT Prove
 
 ❌ **Generalization to New Data**
-- All 588 images come from the same Combinations dataset
+- All 608 images come from the same Combinations dataset
 - Same plot generation method, same visual style
 - Does not test on completely new/external data
 
@@ -394,12 +395,12 @@ variance_shift           0           0          0          0         84
 - Val loss < Train loss (suspicious)
 - High params/sample ratio (58,800:1)
 
-### Updated Assessment (After 588 Image Test)
+### Updated Assessment (After 608 Image Test)
 ✅ **Likely NOT Overfitting (Within Domain)** - Evidence:
-- **7× larger test set**: 588 images vs 84 validation images
+- **7.2× larger test set**: 608 images vs 84 validation images
 - **Perfect accuracy maintained**: 100% on full dataset
 - **Consistent performance**: All combinations, all base types
-- **High confidence**: 99.70% average (model is certain, not guessing)
+- **High confidence**: 99.71% average (model is certain, not guessing)
 
 ### Revised Verdict
 The model has **truly learned** to distinguish between the 5 anomaly types on this specific visual domain (combination plots). The 100% accuracy is **NOT due to memorization** of the small validation set, but rather:
@@ -415,14 +416,15 @@ The model has **truly learned** to distinguish between the 5 anomaly types on th
 
 ## Conclusion
 
-This Visual Model achieves **perfect 100% accuracy on the complete Combinations dataset (588 images)**, validating that the initial 100% validation accuracy was not a fluke.
+This Visual Model achieves **perfect 100% accuracy on the complete Combinations dataset (608 images)**, validating that the initial 100% validation accuracy was not a fluke.
 
 ### Key Takeaways:
-1. ✅ **Model works perfectly** on the full Combinations dataset (588 images)
-2. ✅ **Not overfitted to validation set** - accuracy holds on 7× more images
-3. ✅ **Truly learned the patterns** - distinguishes 5 anomaly types with 99.70% confidence
-4. ⚠️ **Domain-specific**: Performance limited to combination plots with consistent visual style
-5. 🎯 **Next step**: Validate on external data (different plot styles, real-world time series)
+1. ✅ **Model works perfectly** on the full Combinations dataset (608 images)
+2. ✅ **Not overfitted to validation set** - accuracy holds on 7.2× more images
+3. ✅ **Truly learned the patterns** - distinguishes 5 anomaly types with 99.71% confidence
+4. ✅ **Handles nested structures** - correctly classified 20 additional images in nested paths
+5. ⚠️ **Domain-specific**: Performance limited to combination plots with consistent visual style
+6. 🎯 **Next step**: Validate on external data (different plot styles, real-world time series)
 
 **Recommendation**: This model is **production-ready for combination plot classification** within the current domain. However, before deploying on new data sources:
 - Test on plots with different visual styles
@@ -443,4 +445,4 @@ This Visual Model achieves **perfect 100% accuracy on the complete Combinations 
 **Model Checkpoint**: `trained_models/best_model.pth`
 **Training Date**: December 2024
 **Comprehensive Test Date**: December 2024
-**Status**: ✅ **VALIDATED** (100% accuracy on 588 images, domain-specific)
+**Status**: ✅ **VALIDATED** (100% accuracy on 608 images, domain-specific)

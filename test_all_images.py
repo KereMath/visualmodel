@@ -65,20 +65,14 @@ class VisualModelTester:
         # Look backwards from 'plots' folder
         for i, part in enumerate(reversed(path_parts)):
             if part == 'plots':
-                # Two levels up from plots should be Base Type
-                # One level up is the combination folder
+                # Found plots folder, now check all ancestors
                 plots_index = len(path_parts) - i - 1
-                if plots_index >= 2:
-                    # Check if parent of plots is in mapping
-                    parent_name = path_parts[plots_index - 1]
+
+                # Check all parent directories from plots upward
+                for parent_level in range(1, plots_index):
+                    parent_name = path_parts[plots_index - parent_level]
                     if parent_name in VISUAL_MAPPING:
                         return VISUAL_MAPPING[parent_name]
-
-                    # Check if grandparent is in mapping (for nested plots)
-                    if plots_index >= 3:
-                        grandparent_name = path_parts[plots_index - 2]
-                        if grandparent_name in VISUAL_MAPPING:
-                            return VISUAL_MAPPING[grandparent_name]
 
         return None
 

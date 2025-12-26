@@ -1,10 +1,10 @@
 {
   "summary": {
-    "total_images": 588,
+    "total_images": 608,
     "overall_accuracy": 1.0,
-    "correct_predictions": 588,
+    "correct_predictions": 608,
     "incorrect_predictions": 0,
-    "average_confidence": 0.9969815702057209
+    "average_confidence": 0.997063089750315
   },
   "split_performance": {},
   "confusion_matrix": [
@@ -25,7 +25,7 @@
     [
       0,
       0,
-      108,
+      128,
       0,
       0
     ],
@@ -61,7 +61,7 @@
       "precision": 1.0,
       "recall": 1.0,
       "f1-score": 1.0,
-      "support": 108.0
+      "support": 128.0
     },
     "trend_shift": {
       "precision": 1.0,
@@ -80,13 +80,13 @@
       "precision": 1.0,
       "recall": 1.0,
       "f1-score": 1.0,
-      "support": 588.0
+      "support": 608.0
     },
     "weighted avg": {
       "precision": 1.0,
       "recall": 1.0,
       "f1-score": 1.0,
-      "support": 588.0
+      "support": 608.0
     }
   },
   "detailed_results": [
