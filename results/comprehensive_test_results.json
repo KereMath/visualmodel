@@ -1,0 +1,1594 @@
+{
+  "summary": {
+    "total_images": 588,
+    "overall_accuracy": 1.0,
+    "correct_predictions": 588,
+    "incorrect_predictions": 0,
+    "average_confidence": 0.9969815702057209
+  },
+  "split_performance": {},
+  "confusion_matrix": [
+    [
+      108,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      168,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      108,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      120,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      84
+    ]
+  ],
+  "class_report": {
+    "collective_anomaly": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 108.0
+    },
+    "mean_shift": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 168.0
+    },
+    "point_anomaly": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 108.0
+    },
+    "trend_shift": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 120.0
+    },
+    "variance_shift": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 84.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 588.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 588.0
+    }
+  },
+  "detailed_results": [
+    {
+      "image": "arma_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9996455907821655,
+      "correct": true,
+      "probabilities": [
+        0.00011135952081531286,
+        0.9996455907821655,
+        4.470218118513003e-05,
+        0.00010972300515277311,
+        8.8643362687435e-05
+      ]
+    },
+    {
+      "image": "arma_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9983991980552673,
+      "correct": true,
+      "probabilities": [
+        0.00029219643329270184,
+        0.9983991980552673,
+        0.00021776198991574347,
+        0.00035904752439819276,
+        0.000731803709641099
+      ]
+    },
+    {
+      "image": "ar_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9992247819900513,
+      "correct": true,
+      "probabilities": [
+        0.00019059126498177648,
+        0.9992247819900513,
+        9.135360596701503e-05,
+        0.0001383624621666968,
+        0.0003548740060068667
+      ]
+    },
+    {
+      "image": "ar_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9986701011657715,
+      "correct": true,
+      "probabilities": [
+        0.0005149743519723415,
+        0.9986701011657715,
+        0.00021396503143478185,
+        0.00025653385091573,
+        0.00034439447335898876
+      ]
+    },
+    {
+      "image": "ma_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9976690411567688,
+      "correct": true,
+      "probabilities": [
+        0.0007871210109442472,
+        0.9976690411567688,
+        0.00043705222196877003,
+        0.00035654546809382737,
+        0.0007502434891648591
+      ]
+    },
+    {
+      "image": "ma_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9884124398231506,
+      "correct": true,
+      "probabilities": [
+        0.0024194384459406137,
+        0.9884124398231506,
+        0.004492342006415129,
+        0.0014096074737608433,
+        0.0032661561854183674
+      ]
+    },
+    {
+      "image": "white_noise_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.975533664226532,
+      "correct": true,
+      "probabilities": [
+        0.001860630582086742,
+        0.975533664226532,
+        0.006695175543427467,
+        0.0035144772846251726,
+        0.012396080419421196
+      ]
+    },
+    {
+      "image": "white_noise_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9951019287109375,
+      "correct": true,
+      "probabilities": [
+        0.0012014472158625722,
+        0.9951019287109375,
+        0.0013777273707091808,
+        0.0006069057853892446,
+        0.0017120008124038577
+      ]
+    },
+    {
+      "image": "arma_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999895095825195,
+      "correct": true,
+      "probabilities": [
+        5.242513452685671e-06,
+        0.9999895095825195,
+        1.36391633986932e-07,
+        4.723847268905956e-06,
+        3.4255617720191367e-07
+      ]
+    },
+    {
+      "image": "arma_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999679327011108,
+      "correct": true,
+      "probabilities": [
+        1.2231506843818352e-05,
+        0.9999679327011108,
+        1.1917693427676568e-06,
+        1.478645299357595e-05,
+        3.854096121358452e-06
+      ]
+    },
+    {
+      "image": "ar_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.999876856803894,
+      "correct": true,
+      "probabilities": [
+        5.636495916405693e-05,
+        0.999876856803894,
+        9.354670510219876e-06,
+        4.7383593482663855e-05,
+        9.951483662007377e-06
+      ]
+    },
+    {
+      "image": "ar_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999470710754395,
+      "correct": true,
+      "probabilities": [
+        2.1735013433499262e-05,
+        0.9999470710754395,
+        1.2762003507305053e-06,
+        2.4161498004104942e-05,
+        5.684692496288335e-06
+      ]
+    },
+    {
+      "image": "ma_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999843835830688,
+      "correct": true,
+      "probabilities": [
+        9.363246135762893e-06,
+        0.9999843835830688,
+        4.2187656390524353e-07,
+        4.076658569829306e-06,
+        1.7512298882138566e-06
+      ]
+    },
+    {
+      "image": "ma_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999865293502808,
+      "correct": true,
+      "probabilities": [
+        8.51711865834659e-06,
+        0.9999865293502808,
+        3.526895682171016e-07,
+        2.888789140342851e-06,
+        1.6852712860782049e-06
+      ]
+    },
+    {
+      "image": "white_noise_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999961853027344,
+      "correct": true,
+      "probabilities": [
+        2.9660934615094448e-06,
+        0.9999961853027344,
+        3.820237992613329e-08,
+        5.525352548829687e-07,
+        1.5738770287043735e-07
+      ]
+    },
+    {
+      "image": "white_noise_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999634027481079,
+      "correct": true,
+      "probabilities": [
+        2.0342240532045253e-05,
+        0.9999634027481079,
+        1.3656281225848943e-06,
+        9.969357051886618e-06,
+        4.83662506667315e-06
+      ]
+    },
+    {
+      "image": "arma_example1.png",
+      "split": "all",
+      "true_label": "point_anomaly",
+      "pred_label": "point_anomaly",
+      "confidence": 0.9996776580810547,
+      "correct": true,
+      "probabilities": [
+        0.0001983549154829234,
+        1.7526064766570926e-05,
+        0.9996776580810547,
+        4.1769526433199644e-05,
+        6.464801845140755e-05
+      ]
+    },
+    {
+      "image": "arma_example2.png",
+      "split": "all",
+      "true_label": "point_anomaly",
+      "pred_label": "point_anomaly",
+      "confidence": 0.9997907280921936,
+      "correct": true,
+      "probabilities": [
+        0.0001351468381471932,
+        7.187447863543639e-06,
+        0.9997907280921936,
+        4.17828923673369e-05,
+        2.51310284511419e-05
+      ]
+    },
+    {
+      "image": "ar_example1.png",
+      "split": "all",
+      "true_label": "point_anomaly",
+      "pred_label": "point_anomaly",
+      "confidence": 0.9996720552444458,
+      "correct": true,
+      "probabilities": [
+        0.00020021648379042745,
+        1.716194128675852e-05,
+        0.9996720552444458,
+        4.875275044469163e-05,
+        6.179415504448116e-05
+      ]
+    },
+    {
+      "image": "ar_example2.png",
+      "split": "all",
+      "true_label": "point_anomaly",
+      "pred_label": "point_anomaly",
+      "confidence": 0.9997397065162659,
+      "correct": true,
+      "probabilities": [
+        0.00016989931464195251,
+        1.3296888027980458e-05,
+        0.9997397065162659,
+        3.886270133079961e-05,
+        3.81266581825912e-05
+      ]
+    },
+    {
+      "image": "ma_example1.png",
+      "split": "all",
+      "true_label": "point_anomaly",
+      "pred_label": "point_anomaly",
+      "confidence": 0.9995385408401489,
+      "correct": true,
+      "probabilities": [
+        0.0002717659517657012,
+        3.2929670851444826e-05,
+        0.9995385408401489,
+        4.7770397941349074e-05,
+        0.00010909848060691729
+      ]
+    },
+    {
+      "image": "ma_example2.png",
+      "split": "all",
+      "true_label": "point_anomaly",
+      "pred_label": "point_anomaly",
+      "confidence": 0.9997689127922058,
+      "correct": true,
+      "probabilities": [
+        0.00014757584722246975,
+        8.469691238133237e-06,
+        0.9997689127922058,
+        4.114174589631148e-05,
+        3.3879507100209594e-05
+      ]
+    },
+    {
+      "image": "white_noise_example1.png",
+      "split": "all",
+      "true_label": "point_anomaly",
+      "pred_label": "point_anomaly",
+      "confidence": 0.9847984910011292,
+      "correct": true,
+      "probabilities": [
+        0.0028675016947090626,
+        0.002814558334648609,
+        0.9847984910011292,
+        0.00036117472336627543,
+        0.00915831420570612
+      ]
+    },
+    {
+      "image": "white_noise_example2.png",
+      "split": "all",
+      "true_label": "point_anomaly",
+      "pred_label": "point_anomaly",
+      "confidence": 0.9995259046554565,
+      "correct": true,
+      "probabilities": [
+        0.0002756525354925543,
+        3.5853750887326896e-05,
+        0.9995259046554565,
+        5.0139246013714e-05,
+        0.0001124800619436428
+      ]
+    },
+    {
+      "image": "arma_example1.png",
+      "split": "all",
+      "true_label": "variance_shift",
+      "pred_label": "variance_shift",
+      "confidence": 0.999969482421875,
+      "correct": true,
+      "probabilities": [
+        1.8486665567252203e-06,
+        2.1076073608128354e-05,
+        1.811672632356931e-06,
+        5.702450380340451e-06,
+        0.999969482421875
+      ]
+    },
+    {
+      "image": "arma_example2.png",
+      "split": "all",
+      "true_label": "variance_shift",
+      "pred_label": "variance_shift",
+      "confidence": 0.9999809265136719,
+      "correct": true,
+      "probabilities": [
+        1.0513454071769956e-06,
+        1.3024613508605398e-05,
+        8.795870485300838e-07,
+        4.113361228519352e-06,
+        0.9999809265136719
+      ]
+    },
+    {
+      "image": "ar_example1.png",
+      "split": "all",
+      "true_label": "variance_shift",
+      "pred_label": "variance_shift",
+      "confidence": 0.9999865293502808,
+      "correct": true,
+      "probabilities": [
+        6.278383466451487e-07,
+        9.590356967237312e-06,
+        5.504660975930165e-07,
+        2.7299845442030346e-06,
+        0.9999865293502808
+      ]
+    },
+    {
+      "image": "ar_example2.png",
+      "split": "all",
+      "true_label": "variance_shift",
+      "pred_label": "variance_shift",
+      "confidence": 0.9999991655349731,
+      "correct": true,
+      "probabilities": [
+        2.2332335092301037e-08,
+        4.3759106915786106e-07,
+        1.4995679364915304e-08,
+        3.3839771163002297e-07,
+        0.9999991655349731
+      ]
+    },
+    {
+      "image": "ma_example1.png",
+      "split": "all",
+      "true_label": "variance_shift",
+      "pred_label": "variance_shift",
+      "confidence": 0.9999827146530151,
+      "correct": true,
+      "probabilities": [
+        9.409433801010891e-07,
+        1.0223574463452678e-05,
+        8.412156375925406e-07,
+        5.314862391969655e-06,
+        0.9999827146530151
+      ]
+    },
+    {
+      "image": "ma_example2.png",
+      "split": "all",
+      "true_label": "variance_shift",
+      "pred_label": "variance_shift",
+      "confidence": 0.9999955892562866,
+      "correct": true,
+      "probabilities": [
+        2.0542272238799342e-07,
+        2.6286411412002053e-06,
+        1.3210964766585676e-07,
+        1.4219932609194075e-06,
+        0.9999955892562866
+      ]
+    },
+    {
+      "image": "white_noise_example1.png",
+      "split": "all",
+      "true_label": "variance_shift",
+      "pred_label": "variance_shift",
+      "confidence": 0.9999474287033081,
+      "correct": true,
+      "probabilities": [
+        4.230796093906974e-06,
+        3.239827856305055e-05,
+        3.7766596960864263e-06,
+        1.220323520101374e-05,
+        0.9999474287033081
+      ]
+    },
+    {
+      "image": "white_noise_example2.png",
+      "split": "all",
+      "true_label": "variance_shift",
+      "pred_label": "variance_shift",
+      "confidence": 0.9998005032539368,
+      "correct": true,
+      "probabilities": [
+        1.708969648461789e-05,
+        9.10833987290971e-05,
+        5.21091787959449e-05,
+        3.92872461816296e-05,
+        0.9998005032539368
+      ]
+    },
+    {
+      "image": "arma_example1.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999783039093018,
+      "correct": true,
+      "probabilities": [
+        0.9999783039093018,
+        4.479655217437539e-06,
+        4.12465425370101e-07,
+        7.990382073330693e-06,
+        8.770237400312908e-06
+      ]
+    },
+    {
+      "image": "arma_example2.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999244213104248,
+      "correct": true,
+      "probabilities": [
+        0.9999244213104248,
+        9.548412890580948e-06,
+        3.202450216122088e-06,
+        2.424980266368948e-05,
+        3.847437983495183e-05
+      ]
+    },
+    {
+      "image": "ar_example1.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999290704727173,
+      "correct": true,
+      "probabilities": [
+        0.9999290704727173,
+        1.1050838111259509e-05,
+        2.0259872144379187e-06,
+        2.8312168069533072e-05,
+        2.961800419143401e-05
+      ]
+    },
+    {
+      "image": "ar_example2.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999628067016602,
+      "correct": true,
+      "probabilities": [
+        0.9999628067016602,
+        5.934651653660694e-06,
+        1.044988835019467e-06,
+        1.2828934814024251e-05,
+        1.7422926248400472e-05
+      ]
+    },
+    {
+      "image": "ma_example1.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999929666519165,
+      "correct": true,
+      "probabilities": [
+        0.9999929666519165,
+        1.0913006462942576e-06,
+        7.424008430234608e-08,
+        2.8249503429833567e-06,
+        3.011778971995227e-06
+      ]
+    },
+    {
+      "image": "ma_example2.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999878406524658,
+      "correct": true,
+      "probabilities": [
+        0.9999878406524658,
+        1.9644323856482515e-06,
+        2.160765433245615e-07,
+        4.550399353320245e-06,
+        5.3980775192030706e-06
+      ]
+    },
+    {
+      "image": "white_noise_example1.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999849796295166,
+      "correct": true,
+      "probabilities": [
+        0.9999849796295166,
+        2.9639224976563128e-06,
+        1.696348732593833e-07,
+        6.3757997850188985e-06,
+        5.608719675365137e-06
+      ]
+    },
+    {
+      "image": "white_noise_example2.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999667406082153,
+      "correct": true,
+      "probabilities": [
+        0.9999667406082153,
+        1.247342697752174e-05,
+        2.900656284055003e-07,
+        7.570827619929332e-06,
+        1.3027136446908116e-05
+      ]
+    },
+    {
+      "image": "arma_example1.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9993928670883179,
+      "correct": true,
+      "probabilities": [
+        0.9993928670883179,
+        5.7033794291783124e-05,
+        6.753451452823356e-05,
+        0.0002581188455224037,
+        0.00022449974494520575
+      ]
+    },
+    {
+      "image": "arma_example2.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999439716339111,
+      "correct": true,
+      "probabilities": [
+        0.9999439716339111,
+        8.475716640532482e-06,
+        1.6115091057145037e-06,
+        2.6488269213587046e-05,
+        1.9375276679056697e-05
+      ]
+    },
+    {
+      "image": "arma_example3.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999231100082397,
+      "correct": true,
+      "probabilities": [
+        0.9999231100082397,
+        1.0963552085740957e-05,
+        3.1847598620515782e-06,
+        3.905502671841532e-05,
+        2.3624472305527888e-05
+      ]
+    },
+    {
+      "image": "arma_example4.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999890327453613,
+      "correct": true,
+      "probabilities": [
+        0.9999890327453613,
+        1.5768954426675919e-06,
+        1.2722102837869897e-07,
+        5.965938271401683e-06,
+        3.299675654488965e-06
+      ]
+    },
+    {
+      "image": "arma_example5.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9990600943565369,
+      "correct": true,
+      "probabilities": [
+        0.9990600943565369,
+        7.005266525084153e-05,
+        0.00018565145728643984,
+        0.0003354962100274861,
+        0.0003487193025648594
+      ]
+    },
+    {
+      "image": "ar_example1.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999866485595703,
+      "correct": true,
+      "probabilities": [
+        0.9999866485595703,
+        2.12721374737157e-06,
+        1.255164363556105e-07,
+        7.411878868879285e-06,
+        3.685337560455082e-06
+      ]
+    },
+    {
+      "image": "ar_example2.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.999946117401123,
+      "correct": true,
+      "probabilities": [
+        0.999946117401123,
+        7.820433893357404e-06,
+        1.7763258028935525e-06,
+        2.4034068701439537e-05,
+        2.0219884390826337e-05
+      ]
+    },
+    {
+      "image": "ar_example3.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999734163284302,
+      "correct": true,
+      "probabilities": [
+        0.9999734163284302,
+        4.045957666676259e-06,
+        5.014007342651894e-07,
+        1.3059341654297896e-05,
+        9.097260772250593e-06
+      ]
+    },
+    {
+      "image": "ar_example4.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999749660491943,
+      "correct": true,
+      "probabilities": [
+        0.9999749660491943,
+        3.6111234749114374e-06,
+        4.867524125984346e-07,
+        1.427538154530339e-05,
+        6.688018856948474e-06
+      ]
+    },
+    {
+      "image": "ar_example5.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999324083328247,
+      "correct": true,
+      "probabilities": [
+        0.9999324083328247,
+        9.249560207535978e-06,
+        2.5100418952206383e-06,
+        2.9075610655127093e-05,
+        2.6702817194745876e-05
+      ]
+    },
+    {
+      "image": "ma_example1.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999821186065674,
+      "correct": true,
+      "probabilities": [
+        0.9999821186065674,
+        1.8721092374107684e-06,
+        5.38647327630315e-07,
+        8.079937288130168e-06,
+        7.368508704530541e-06
+      ]
+    },
+    {
+      "image": "ma_example2.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999663829803467,
+      "correct": true,
+      "probabilities": [
+        0.9999663829803467,
+        4.683823135565035e-06,
+        8.158824016391009e-07,
+        1.61741681949934e-05,
+        1.1874547453771811e-05
+      ]
+    },
+    {
+      "image": "ma_example3.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9997064471244812,
+      "correct": true,
+      "probabilities": [
+        0.9997064471244812,
+        4.6402074076468125e-05,
+        2.0312687411205843e-05,
+        0.00013631345063913614,
+        9.060753654921427e-05
+      ]
+    },
+    {
+      "image": "ma_example4.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999936819076538,
+      "correct": true,
+      "probabilities": [
+        0.9999936819076538,
+        1.0558057965681655e-06,
+        4.521205809737694e-08,
+        3.6959365843358682e-06,
+        1.5963552186804009e-06
+      ]
+    },
+    {
+      "image": "ma_example5.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999579191207886,
+      "correct": true,
+      "probabilities": [
+        0.9999579191207886,
+        6.216222573129926e-06,
+        1.1130531447633984e-06,
+        2.0056397261214443e-05,
+        1.4806214494456071e-05
+      ]
+    },
+    {
+      "image": "white_noise_example1.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999443292617798,
+      "correct": true,
+      "probabilities": [
+        0.9999443292617798,
+        9.521577339910436e-06,
+        2.34791218645114e-06,
+        2.5771196305868216e-05,
+        1.8020782590610906e-05
+      ]
+    },
+    {
+      "image": "white_noise_example2.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999889135360718,
+      "correct": true,
+      "probabilities": [
+        0.9999889135360718,
+        2.1001033019274473e-06,
+        1.4803794101680978e-07,
+        5.376894478104077e-06,
+        3.4761892493406776e-06
+      ]
+    },
+    {
+      "image": "white_noise_example3.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.999991774559021,
+      "correct": true,
+      "probabilities": [
+        0.999991774559021,
+        1.229794861501432e-06,
+        8.788968131057118e-08,
+        4.52477297585574e-06,
+        2.3784082259226125e-06
+      ]
+    },
+    {
+      "image": "white_noise_example4.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999349117279053,
+      "correct": true,
+      "probabilities": [
+        0.9999349117279053,
+        9.62161266215844e-06,
+        2.5163590180454776e-06,
+        2.945196501968894e-05,
+        2.3509095626650378e-05
+      ]
+    },
+    {
+      "image": "white_noise_example5.png",
+      "split": "all",
+      "true_label": "collective_anomaly",
+      "pred_label": "collective_anomaly",
+      "confidence": 0.9999232292175293,
+      "correct": true,
+      "probabilities": [
+        0.9999232292175293,
+        7.319169526454061e-06,
+        3.5985167414764874e-06,
+        3.144600850646384e-05,
+        3.4398428397253156e-05
+      ]
+    },
+    {
+      "image": "arma_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9977378845214844,
+      "correct": true,
+      "probabilities": [
+        0.0005355027969926596,
+        0.9977378845214844,
+        0.0003811749047599733,
+        0.0005091693019494414,
+        0.0008362688240595162
+      ]
+    },
+    {
+      "image": "arma_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9994194507598877,
+      "correct": true,
+      "probabilities": [
+        0.0002543020236771554,
+        0.9994194507598877,
+        9.736132778925821e-05,
+        0.00012544805940706283,
+        0.00010348721116315573
+      ]
+    },
+    {
+      "image": "arma_example3.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9981597065925598,
+      "correct": true,
+      "probabilities": [
+        0.000645962601993233,
+        0.9981597065925598,
+        0.0004967369022779167,
+        0.00034381900331936777,
+        0.00035389079130254686
+      ]
+    },
+    {
+      "image": "arma_example4.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9990705847740173,
+      "correct": true,
+      "probabilities": [
+        0.00021131370158400387,
+        0.9990705847740173,
+        9.672699525253847e-05,
+        0.0001384024799335748,
+        0.0004829850804526359
+      ]
+    },
+    {
+      "image": "arma_example5.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9997925162315369,
+      "correct": true,
+      "probabilities": [
+        7.391373219434172e-05,
+        0.9997925162315369,
+        1.4482379810942803e-05,
+        4.522687231656164e-05,
+        7.395244028884917e-05
+      ]
+    },
+    {
+      "image": "ar_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9995205402374268,
+      "correct": true,
+      "probabilities": [
+        0.0001813169801607728,
+        0.9995205402374268,
+        5.935577428317629e-05,
+        0.00010616487270453945,
+        0.00013268152542877942
+      ]
+    },
+    {
+      "image": "ar_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.997700035572052,
+      "correct": true,
+      "probabilities": [
+        0.00040890421951189637,
+        0.997700035572052,
+        0.00033160700695589185,
+        0.00030245326342992485,
+        0.0012569573009386659
+      ]
+    },
+    {
+      "image": "ar_example3.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9968584775924683,
+      "correct": true,
+      "probabilities": [
+        0.0009484339971095324,
+        0.9968584775924683,
+        0.00044387351954355836,
+        0.0003839632263407111,
+        0.0013651991030201316
+      ]
+    },
+    {
+      "image": "ar_example4.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9962288737297058,
+      "correct": true,
+      "probabilities": [
+        0.0005875920178368688,
+        0.9962288737297058,
+        0.0005504371947608888,
+        0.0005270326510071754,
+        0.002106000669300556
+      ]
+    },
+    {
+      "image": "ar_example5.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9977062940597534,
+      "correct": true,
+      "probabilities": [
+        0.0007707213517278433,
+        0.9977062940597534,
+        0.0004872625577263534,
+        0.0002964041195809841,
+        0.0007392661646008492
+      ]
+    },
+    {
+      "image": "ma_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9998224377632141,
+      "correct": true,
+      "probabilities": [
+        7.368325896095484e-05,
+        0.9998224377632141,
+        1.4382296285475604e-05,
+        5.3078183555044234e-05,
+        3.654079046100378e-05
+      ]
+    },
+    {
+      "image": "ma_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9995208978652954,
+      "correct": true,
+      "probabilities": [
+        0.00021171158005017787,
+        0.9995208978652954,
+        6.921814201632515e-05,
+        0.0001095347324735485,
+        8.866925054462627e-05
+      ]
+    },
+    {
+      "image": "ma_example3.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9988862872123718,
+      "correct": true,
+      "probabilities": [
+        0.00040579173946753144,
+        0.9988862872123718,
+        0.00019813589460682124,
+        0.00020789985137525946,
+        0.00030189796234481037
+      ]
+    },
+    {
+      "image": "ma_example4.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9966193437576294,
+      "correct": true,
+      "probabilities": [
+        0.0004597230872604996,
+        0.9966193437576294,
+        0.0002968941116705537,
+        0.0003983174392487854,
+        0.002225645584985614
+      ]
+    },
+    {
+      "image": "ma_example5.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9963083863258362,
+      "correct": true,
+      "probabilities": [
+        0.0005583554157055914,
+        0.9963083863258362,
+        0.0006041921442374587,
+        0.0008529722690582275,
+        0.0016760098515078425
+      ]
+    },
+    {
+      "image": "white_noise_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9998070597648621,
+      "correct": true,
+      "probabilities": [
+        9.450304787606001e-05,
+        0.9998070597648621,
+        1.7635797121329233e-05,
+        3.960772301070392e-05,
+        4.121852543903515e-05
+      ]
+    },
+    {
+      "image": "white_noise_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9987984895706177,
+      "correct": true,
+      "probabilities": [
+        0.0002976809337269515,
+        0.9987984895706177,
+        0.00015844445442780852,
+        0.00018409737094771117,
+        0.0005613375687971711
+      ]
+    },
+    {
+      "image": "white_noise_example3.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9985021352767944,
+      "correct": true,
+      "probabilities": [
+        0.0004624969733413309,
+        0.9985021352767944,
+        0.00029420212376862764,
+        0.000402116245822981,
+        0.00033905467716977
+      ]
+    },
+    {
+      "image": "white_noise_example4.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9991844296455383,
+      "correct": true,
+      "probabilities": [
+        0.00015642240759916604,
+        0.9991844296455383,
+        5.2060186135349795e-05,
+        8.512109343428165e-05,
+        0.000521874928381294
+      ]
+    },
+    {
+      "image": "white_noise_example5.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9975608587265015,
+      "correct": true,
+      "probabilities": [
+        0.0005555532407015562,
+        0.9975608587265015,
+        0.0004332295211497694,
+        0.00041263835737481713,
+        0.0010377304861322045
+      ]
+    },
+    {
+      "image": "arma_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999598264694214,
+      "correct": true,
+      "probabilities": [
+        1.8343596821068786e-05,
+        0.9999598264694214,
+        1.520445266578463e-06,
+        1.6153051547007635e-05,
+        4.073103355040075e-06
+      ]
+    },
+    {
+      "image": "arma_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9998539686203003,
+      "correct": true,
+      "probabilities": [
+        8.044278365559876e-05,
+        0.9998539686203003,
+        6.445793587772641e-06,
+        2.2249179892241955e-05,
+        3.681924135889858e-05
+      ]
+    },
+    {
+      "image": "arma_example3.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999350309371948,
+      "correct": true,
+      "probabilities": [
+        3.454143734415993e-05,
+        0.9999350309371948,
+        4.807520781469066e-06,
+        2.033473901974503e-05,
+        5.208491074881749e-06
+      ]
+    },
+    {
+      "image": "arma_example4.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999315738677979,
+      "correct": true,
+      "probabilities": [
+        2.1939640646451153e-05,
+        0.9999315738677979,
+        4.262292804924073e-06,
+        3.1952931749401614e-05,
+        1.030066778184846e-05
+      ]
+    },
+    {
+      "image": "arma_example5.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999698400497437,
+      "correct": true,
+      "probabilities": [
+        1.9922088540624827e-05,
+        0.9999698400497437,
+        9.571442660671892e-07,
+        6.146804480522405e-06,
+        3.1369220323540503e-06
+      ]
+    },
+    {
+      "image": "ar_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999550580978394,
+      "correct": true,
+      "probabilities": [
+        1.54462359205354e-05,
+        0.9999550580978394,
+        2.1062458017695462e-06,
+        2.4069146093097515e-05,
+        3.2606435524940025e-06
+      ]
+    },
+    {
+      "image": "ar_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999771118164062,
+      "correct": true,
+      "probabilities": [
+        1.1344139238644857e-05,
+        0.9999771118164062,
+        8.704395781933272e-07,
+        7.033083420537878e-06,
+        3.677042059280211e-06
+      ]
+    },
+    {
+      "image": "ar_example3.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999970197677612,
+      "correct": true,
+      "probabilities": [
+        2.5122278657363495e-06,
+        0.9999970197677612,
+        1.6804197144892896e-08,
+        2.724513308294263e-07,
+        1.7305383437360433e-07
+      ]
+    },
+    {
+      "image": "ar_example4.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999936819076538,
+      "correct": true,
+      "probabilities": [
+        4.6384052438952494e-06,
+        0.9999936819076538,
+        7.962798775906776e-08,
+        1.3383165651248419e-06,
+        2.601116761979938e-07
+      ]
+    },
+    {
+      "image": "ar_example5.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999830722808838,
+      "correct": true,
+      "probabilities": [
+        1.2089753909094725e-05,
+        0.9999830722808838,
+        2.3889137423793727e-07,
+        1.516375277788029e-06,
+        3.0397823138628155e-06
+      ]
+    },
+    {
+      "image": "ma_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999127388000488,
+      "correct": true,
+      "probabilities": [
+        3.740222382475622e-05,
+        0.9999127388000488,
+        5.681072252627928e-06,
+        2.070359005301725e-05,
+        2.348515590711031e-05
+      ]
+    },
+    {
+      "image": "ma_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999368190765381,
+      "correct": true,
+      "probabilities": [
+        2.8719023248413578e-05,
+        0.9999368190765381,
+        2.8137224035162944e-06,
+        2.265643524879124e-05,
+        8.97693735169014e-06
+      ]
+    },
+    {
+      "image": "ma_example3.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9995471835136414,
+      "correct": true,
+      "probabilities": [
+        0.00014496452058665454,
+        0.9995471835136414,
+        3.9048089092830196e-05,
+        0.00015836070815566927,
+        0.0001103920949390158
+      ]
+    },
+    {
+      "image": "ma_example4.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999974966049194,
+      "correct": true,
+      "probabilities": [
+        1.947748160091578e-06,
+        0.9999974966049194,
+        2.2407217414865954e-08,
+        3.233954828374408e-07,
+        1.3222674510871002e-07
+      ]
+    },
+    {
+      "image": "ma_example5.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999620914459229,
+      "correct": true,
+      "probabilities": [
+        1.7277701772400178e-05,
+        0.9999620914459229,
+        1.68514179677004e-06,
+        1.5076161616889294e-05,
+        3.928930254915031e-06
+      ]
+    },
+    {
+      "image": "white_noise_example1.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999879598617554,
+      "correct": true,
+      "probabilities": [
+        7.608619853272103e-06,
+        0.9999879598617554,
+        3.5852679047820857e-07,
+        2.9557256766565843e-06,
+        1.0395084473202587e-06
+      ]
+    },
+    {
+      "image": "white_noise_example2.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999167919158936,
+      "correct": true,
+      "probabilities": [
+        3.1097952160052955e-05,
+        0.9999167919158936,
+        5.0627927521418314e-06,
+        2.6000390789704397e-05,
+        2.1095433112350293e-05
+      ]
+    },
+    {
+      "image": "white_noise_example3.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.999963641166687,
+      "correct": true,
+      "probabilities": [
+        1.8140297470381483e-05,
+        0.999963641166687,
+        1.9841902485495666e-06,
+        1.2045647054037545e-05,
+        4.228798843541881e-06
+      ]
+    },
+    {
+      "image": "white_noise_example4.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999970197677612,
+      "correct": true,
+      "probabilities": [
+        1.6564702036703238e-06,
+        0.9999970197677612,
+        3.493435229984243e-08,
+        9.373973739457142e-07,
+        3.0284775220934534e-07
+      ]
+    },
+    {
+      "image": "white_noise_example5.png",
+      "split": "all",
+      "true_label": "mean_shift",
+      "pred_label": "mean_shift",
+      "confidence": 0.9999865293502808,
+      "correct": true,
+      "probabilities": [
+        9.983669770008419e-06,
+        0.9999865293502808,
+        2.7116539058624767e-07,
+        2.3093766685633454e-06,
+        9.698126177681843e-07
+      ]
+    }
+  ]
+}
